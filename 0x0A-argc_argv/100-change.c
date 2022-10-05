@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- *
  * make_change - finds least number of coins
  * @n: money amount
  * Return: number of coins
@@ -77,6 +76,7 @@ int main(int argc, char *argv[])
 		coins = make_change(atoi(argv[1]));
 		printf("%d\n", coins);
 	}
+
 	return (0);
 }
 
